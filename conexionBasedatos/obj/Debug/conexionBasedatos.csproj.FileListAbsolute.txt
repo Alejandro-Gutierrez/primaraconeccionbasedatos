@@ -1,0 +1,28 @@
+d:\documentos\visual studio 2015\Projects\conexionBasedatos\conexionBasedatos\bin\Debug\conexionBasedatos.exe.config
+d:\documentos\visual studio 2015\Projects\conexionBasedatos\conexionBasedatos\bin\Debug\conexionBasedatos.exe
+d:\documentos\visual studio 2015\Projects\conexionBasedatos\conexionBasedatos\bin\Debug\conexionBasedatos.pdb
+d:\documentos\visual studio 2015\Projects\conexionBasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.csprojResolveAssemblyReference.cache
+d:\documentos\visual studio 2015\Projects\conexionBasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.Form1.resources
+d:\documentos\visual studio 2015\Projects\conexionBasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.Properties.Resources.resources
+d:\documentos\visual studio 2015\Projects\conexionBasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.csproj.GenerateResource.Cache
+d:\documentos\visual studio 2015\Projects\conexionBasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.exe
+d:\documentos\visual studio 2015\Projects\conexionBasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.pdb
+d:\documentos\visual studio 2015\Projects\conexionBasedatos\conexionBasedatos\bin\Debug\MySql.Data.dll
+d:\documentos\visual studio 2015\Projects\conexionBasedatos\conexionBasedatos\bin\Debug\Google.Protobuf.dll
+d:\documentos\visual studio 2015\Projects\conexionBasedatos\conexionBasedatos\bin\Debug\BouncyCastle.Crypto.dll
+d:\documentos\visual studio 2015\Projects\conexionBasedatos\conexionBasedatos\bin\Debug\MySql.Data.xml
+C:\Users\NIÑOS.USER-PC\Desktop\programacion\Proyecto C#\conexionBasedatos\conexionBasedatos\bin\Debug\conexionBasedatos.exe.config
+C:\Users\NIÑOS.USER-PC\Desktop\programacion\Proyecto C#\conexionBasedatos\conexionBasedatos\bin\Debug\conexionBasedatos.exe
+C:\Users\NIÑOS.USER-PC\Desktop\programacion\Proyecto C#\conexionBasedatos\conexionBasedatos\bin\Debug\conexionBasedatos.pdb
+C:\Users\NIÑOS.USER-PC\Desktop\programacion\Proyecto C#\conexionBasedatos\conexionBasedatos\bin\Debug\MySql.Data.dll
+C:\Users\NIÑOS.USER-PC\Desktop\programacion\Proyecto C#\conexionBasedatos\conexionBasedatos\bin\Debug\Google.Protobuf.dll
+C:\Users\NIÑOS.USER-PC\Desktop\programacion\Proyecto C#\conexionBasedatos\conexionBasedatos\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\NIÑOS.USER-PC\Desktop\programacion\Proyecto C#\conexionBasedatos\conexionBasedatos\bin\Debug\MySql.Data.xml
+C:\Users\NIÑOS.USER-PC\Desktop\programacion\Proyecto C#\conexionBasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.csprojAssemblyReference.cache
+C:\Users\NIÑOS.USER-PC\Desktop\programacion\Proyecto C#\conexionBasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.Form1.resources
+C:\Users\NIÑOS.USER-PC\Desktop\programacion\Proyecto C#\conexionBasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.Properties.Resources.resources
+C:\Users\NIÑOS.USER-PC\Desktop\programacion\Proyecto C#\conexionBasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.csproj.GenerateResource.cache
+C:\Users\NIÑOS.USER-PC\Desktop\programacion\Proyecto C#\conexionBasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.csproj.CoreCompileInputs.cache
+C:\Users\NIÑOS.USER-PC\Desktop\programacion\Proyecto C#\conexionBasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.csproj.CopyComplete
+C:\Users\NIÑOS.USER-PC\Desktop\programacion\Proyecto C#\conexionBasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.exe
+C:\Users\NIÑOS.USER-PC\Desktop\programacion\Proyecto C#\conexionBasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.pdb
