@@ -26,3 +26,16 @@ C:\Users\NIÑOS.USER-PC\Desktop\programacion\Proyecto C#\conexionBasedatos\conex
 C:\Users\NIÑOS.USER-PC\Desktop\programacion\Proyecto C#\conexionBasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.csproj.CopyComplete
 C:\Users\NIÑOS.USER-PC\Desktop\programacion\Proyecto C#\conexionBasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.exe
 C:\Users\NIÑOS.USER-PC\Desktop\programacion\Proyecto C#\conexionBasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.pdb
+C:\primaraconeccionbasedatos\conexionBasedatos\bin\Debug\conexionBasedatos.exe.config
+C:\primaraconeccionbasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.exe
+C:\primaraconeccionbasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.pdb
+C:\primaraconeccionbasedatos\conexionBasedatos\bin\Debug\conexionBasedatos.exe
+C:\primaraconeccionbasedatos\conexionBasedatos\bin\Debug\conexionBasedatos.pdb
+C:\primaraconeccionbasedatos\conexionBasedatos\bin\Debug\MySql.Data.dll
+C:\primaraconeccionbasedatos\conexionBasedatos\bin\Debug\Google.Protobuf.dll
+C:\primaraconeccionbasedatos\conexionBasedatos\bin\Debug\BouncyCastle.Crypto.dll
+C:\primaraconeccionbasedatos\conexionBasedatos\bin\Debug\MySql.Data.xml
+C:\primaraconeccionbasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.csprojResolveAssemblyReference.cache
+C:\primaraconeccionbasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.Form1.resources
+C:\primaraconeccionbasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.Properties.Resources.resources
+C:\primaraconeccionbasedatos\conexionBasedatos\obj\Debug\conexionBasedatos.csproj.GenerateResource.Cache

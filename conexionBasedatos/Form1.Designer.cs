@@ -47,6 +47,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.btnNuevo = new System.Windows.Forms.Button();
             this.txtgenero = new System.Windows.Forms.TextBox();
+            this.BtnEliminar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -140,10 +141,12 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Enabled = false;
             this.dataGridView1.Location = new System.Drawing.Point(323, 54);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(733, 224);
             this.dataGridView1.TabIndex = 11;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // txtCelular
             // 
@@ -164,16 +167,17 @@
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(157, 453);
+            this.btnBuscar.Location = new System.Drawing.Point(311, 453);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(82, 35);
             this.btnBuscar.TabIndex = 14;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // btnActualizar
             // 
-            this.btnActualizar.Location = new System.Drawing.Point(263, 453);
+            this.btnActualizar.Location = new System.Drawing.Point(223, 453);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(82, 35);
             this.btnActualizar.TabIndex = 15;
@@ -200,7 +204,7 @@
             // 
             // btnNuevo
             // 
-            this.btnNuevo.Location = new System.Drawing.Point(370, 453);
+            this.btnNuevo.Location = new System.Drawing.Point(135, 453);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(82, 35);
             this.btnNuevo.TabIndex = 18;
@@ -216,11 +220,22 @@
             this.txtgenero.Size = new System.Drawing.Size(160, 20);
             this.txtgenero.TabIndex = 19;
             // 
+            // BtnEliminar
+            // 
+            this.BtnEliminar.Location = new System.Drawing.Point(47, 509);
+            this.BtnEliminar.Name = "BtnEliminar";
+            this.BtnEliminar.Size = new System.Drawing.Size(82, 35);
+            this.BtnEliminar.TabIndex = 20;
+            this.BtnEliminar.Text = "Eliminar";
+            this.BtnEliminar.UseVisualStyleBackColor = true;
+            this.BtnEliminar.Click += new System.EventHandler(this.BtnEliminar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1127, 684);
+            this.Controls.Add(this.BtnEliminar);
             this.Controls.Add(this.txtgenero);
             this.Controls.Add(this.btnNuevo);
             this.Controls.Add(this.txtDocumento);
@@ -270,6 +285,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnNuevo;
         private System.Windows.Forms.TextBox txtgenero;
+        private System.Windows.Forms.Button BtnEliminar;
     }
 }
 

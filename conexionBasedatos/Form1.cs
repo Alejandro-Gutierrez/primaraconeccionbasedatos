@@ -14,7 +14,7 @@ namespace conexionBasedatos
 {
     public partial class Form1 : Form
     {
-        String Base = "datasource=localhost; port=3306; username=Alex; password=3004353603.2;database=pruebaconexion;";
+        String Base = "datasource=localhost; port=3306; username=root; password=cbn2016;database=pruebaconexion;";
             
         public Form1() 
         {
@@ -29,7 +29,7 @@ namespace conexionBasedatos
 
             String query = "";
             
-            query = "SELECT Documento,Nombres, Primer_apellido, Segundo_apellido, Edad, Genero,Celular FROM Usuario";
+            query = "SELECT Documento,Nombres, Primer_apellido, Segundo_apellido, Edad, Genero,Celular FROM Usuario WHERE Estado=true";
             
 
             MySqlConnection conexion = new MySqlConnection(Base);
@@ -63,10 +63,10 @@ namespace conexionBasedatos
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             String query1 = "";
-            Console.Write("");
+            
 
 
-            query1 = @"INSERT INTO Usuario values(?idUsuario,?Documento,?Nombres, ?Primer_apellido, ?Segundo_apellido, ?Edad, ?Genero, ?Celular)";
+            query1 = @"INSERT INTO Usuario values(?idUsuario,?Documento,?Nombres, ?Primer_apellido, ?Segundo_apellido, ?Edad, ?Genero, ?Celular,?Estado)";
             MySqlConnection conexion = new MySqlConnection(Base);
 
             conexion.Open();
@@ -80,6 +80,7 @@ namespace conexionBasedatos
             coman.Parameters.AddWithValue("?Edad", Convert.ToInt64(txtEdad.Text));
             coman.Parameters.AddWithValue("?Genero", txtgenero.Text.ToUpper());
             coman.Parameters.AddWithValue("?Celular", txtCelular.Text);
+            coman.Parameters.AddWithValue("?Estado", true);
             coman.ExecuteNonQuery();
             conexion.Close();
             mostrar();
@@ -103,5 +104,52 @@ namespace conexionBasedatos
         {
             
         }
+
+        
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Enabled = true;
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txtDocumento.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            txtNombre.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            txtPrimerapellido.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+            txtSegundoapellido.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
+            txtEdad.Text = dataGridView1.CurrentRow.Cells[4].Value.ToString();
+            txtgenero.Text = dataGridView1.CurrentRow.Cells[5].Value.ToString();
+            txtCelular.Text = dataGridView1.CurrentRow.Cells[6].Value.ToString();
+        }
+
+        private void BtnEliminar_Click(object sender, EventArgs e)
+        {
+            //if (txtDocumento.Text == "")
+            //{
+            //    MessageBox.Show("Por favor ingrese el Documento", "Aviso",MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //}else
+            //{
+               
+            //}
+            String query1 = "";
+
+            query1 = @"UPDATE Usuario SET Estado=?estado WHERE Documento='" + dataGridView1.CurrentRow.Cells[0].Value.ToString() + "'";
+
+            MySqlConnection conexion = new MySqlConnection(Base);
+
+            conexion.Open();
+            MySqlCommand coman = new MySqlCommand(query1, conexion);
+            coman.Parameters.AddWithValue("?estado", false);
+            coman.ExecuteNonQuery();
+
+            conexion.Close();
+            mostrar();
+
+
+            MessageBox.Show("Eliminado con exito", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        }
+
+        
     }
 }
